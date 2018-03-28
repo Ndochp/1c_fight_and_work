@@ -7,4 +7,5 @@
 * [БП3](bp3.md)
 * [Управление холдингом](upravlenie-holdingom.md)
 * [Тестер](tester.md)
+* [Штрихкоды](shtrihkodi.md)
 
