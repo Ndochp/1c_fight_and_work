@@ -8,4 +8,5 @@
 * [Управление холдингом](upravlenie-holdingom.md)
 * [Тестер](tester.md)
 * [Штрихкоды](shtrihkodi.md)
+* [УТ 11](ut-11.md)
 
