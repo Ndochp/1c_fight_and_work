@@ -1,4 +1,5 @@
 # Конспект всяких знаний \(про 1С\)
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
-
+## Полезные ссылки
+* Как дать доступ к ИТС сотрудникам:
+https://portal.1c.ru/subscribers/current-subscriber/invites
