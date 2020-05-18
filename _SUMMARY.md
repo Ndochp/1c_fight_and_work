@@ -3,6 +3,7 @@
 * [Introduction](README.md)
 * [СКД](SKD.md)
 * [Документооборот 1.3](dokumentooborot-13.md)
+* [Документооборот 2](dokumentooborot-2.md)
 * [Управляемые формы](upravlyaemie-formi.md)
 * [БП 3](bp3.md)
 * [Управление холдингом](upravlenie-holdingom.md)
