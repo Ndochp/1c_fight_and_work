@@ -1,3 +1,52 @@
+## Работа с MS SQL в пакетном режиме
+Используется утилита sqlcmd
+### Достать базу из беэкапа (полного)
+``` 
+sqlcmd -S <Инстанс сервера> -U <Пользователь> -P <Пароль>  -Q "RESTORE DATABASE %1 FROM DISK='%2' WITH REPLACE"
+```
+### погасить/поднять базу
+
+``` 
+sqlcmd -S <Инстанс сервера> -U <Пользователь> -P <Пароль>  -Q "ALTER DATABASE [Имя базы данных] SET OFFLINE WITH ROLLBACK IMMEDIATE"
+```
+WITH ROLLBACK IMMEDIATE - это с разрывом существующих соединений
+
+<details>
+    <summary>на всякий случай рядом, пока без проверок Детач/аттач</summary>
+
+```
+Goto cmd (Run->cmd)
+
+To connect to local SQL server default instance
+>sqlcmd -S .\
+Or to connect to named instance (SQLEXPRESS being your named instance)
+>sqlcmd -S .\SQLEXPRESS
+Or connect to SQL server on another machine
+>sqlcmd -S REMOTEMACHINE\INSTANCENAME
+After connecting switch to master database
+>use master;
+>go
+
+Then you should see – Changed database context to ‘master’.
+
+Now attach/detach your database
+>sp_detach_db ‘database name’;
+
+>go
+
+>sp_attach_db ‘database name’,’path to mdf’,’path to ldf’;
+
+>go
+
+Edit: To verify the file location, sp_helpfile stored procedure can be used.
+
+use ‘database name’;
+go
+sp_helpfile
+go
+```
+</details>
+
 ##  Размер таблиц в БД MS SQL SERVER отсортированный по убыванию
 https://speshuric.livejournal.com/53616.html
 ``` SQL
