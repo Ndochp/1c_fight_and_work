@@ -6,6 +6,7 @@
 * [Документооборот 2](dokumentooborot-2.md)
 * [Управляемые формы](upravlyaemie-formi.md)
 * [БП 3](bp3.md)
+* [ERP 2.4](ERP.md)
 * [Управление холдингом](upravlenie-holdingom.md)
 * [Тестер](tester.md)
 * [Штрихкоды](shtrihkodi.md)
