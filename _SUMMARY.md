@@ -1,6 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
+* [Шаблоны](Шаблоны.md)
 * [СКД](SKD.md)
 * [Документооборот 1.3](dokumentooborot-13.md)
 * [Документооборот 2](dokumentooborot-2.md)
