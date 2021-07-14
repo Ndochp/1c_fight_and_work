@@ -15,3 +15,4 @@ _book
 *.mobi
 *.pdf
 .obsidian/workspace
+.obsidian/graph.json
