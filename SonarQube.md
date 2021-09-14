@@ -1,0 +1,3 @@
+---
+Aliases: Сонар, Sonar, SonarQube
+---
