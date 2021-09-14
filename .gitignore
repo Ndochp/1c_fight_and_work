@@ -16,3 +16,4 @@ _book
 *.pdf
 .obsidian/workspace
 .obsidian/graph.json
+.obsidian
