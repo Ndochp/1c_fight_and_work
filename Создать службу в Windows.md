@@ -1,7 +1,7 @@
-## Команда
-sc
+# Создать службу в Windows
+## Команда sc
 
-## Описание
+### Описание
 ```
 # sc
 ОПИСАНИЕ:
@@ -95,12 +95,26 @@ sc query type= interact - Перечисление всех интерактив
 sc query type= driver group= NDIS     - Перечисление всех драйверов NDIS
 ```
 
-## Примечание
+### Примечание
 Кавычки внутри параметров нужно экранировать `\` 
 
-Пример:
+### Примеры
+Пример (с экранированием кавычек и тп):
 ```
 sc create "1С:Предприятие 8.3 Server Agent BitFinans test" binPath= "\"C:\Program Files\1cv8\8.3.7.1860\bin\ragent.exe\" -srvc -agent -regport 4541 -port 4540 -range 4560:4591 -d \"C:\Program Files (x86)\1cv8\srvinfobittest"" start= auto displayname= "1С:Предприятие 8.3 Server Agent BitFinans test" obj= ".\Администратор" password= "passwd"
 sc description "1С:Предприятие 8.3 Server AgentBitFinans test" "Тестовый кластер 1С BitFinans"
 sc start "1С:Предприятие 8.3 Server Agent BitFinans test"
 ```
+
+Пример покороче
+```
+sc create "FakeSMTP" binPath= "D:\Soft\Fakesmtp\npm\fake-smtp-server.cmd" start= auto displayname= "FakeSMTP" obj= "LocalSystem"
+```
+
+## Утилита NSSM
+https://nssm.cc/
+
+Позволяет создать сервис из того, что и не думало быть сервисом.
+В том числе переправить stdin/out/err в файлы логов.
+
+Команда установки nssm install, в ней гуй для настроек.  В принципе можно забить все в командную строку, тогда гуя не будет и можно использвать в скриптах
