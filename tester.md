@@ -18,7 +18,6 @@
 1. http://tester.help/api/#standardprocessing - отключать стандартную обработку
 ```
 СтандартнаяОбработка = Ложь
-
 ```
 2. Использовать более сложное поведение с [игнорированием ошибок](http://tester.help/api/#ignoreerrors) и ручной обработкой сообщений через [НайтиСообщения](http://tester.help/api/#findmessages) и [ПолучитьСообщения](http://tester.help/api/#getmessages)
 
