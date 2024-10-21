@@ -48,7 +48,10 @@ Three-way merge:
 
 https://code.visualstudio.com/updates/v1_78?ref=dailydevbytes.com#_diff-algorithm-improvements
 
-
+## 1С тема
+https://github.com/ChernyakAI/vscode-onec-theme
+1. В Visual Studio Code перейдите на вкладку "Расширения"
+2. В окне поиска введите "OneC Theme"
 # Ссылки
 [Платформа 1С](Платформа%201С.md)
 [[VSC]]
