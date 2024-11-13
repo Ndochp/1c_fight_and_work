@@ -24,5 +24,7 @@
   "newFileLocation": "current",
   "useMarkdownLinks": true,
   "showUnsupportedFiles": true,
-  "enabledPlugins": []
+  "enabledPlugins": [],
+  "readableLineLength": false,
+  "strictLineBreaks": false
 }
