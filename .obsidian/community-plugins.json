@@ -1,1 +1,4 @@
-[]
+[
+  "shiki-highlighter",
+  "find-unlinked-files"
+]
