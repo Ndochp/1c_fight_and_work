@@ -11,3 +11,8 @@ curl --header "PRIVATE-TOKEN:TOKEN" "GITLAB_URL/api/v4/projects/PROJECT_ID/pipel
 до кучи полезные ключи: `&source=schedule&ref=develop`
 ### Кодирование имени проекта в группе для API
 Код проекта внутри группы, например `some/thing` должен кодироваться как  `some%2Fthing`, то есть `/` меняется на `%2F`
+
+## Генерация чейнджлогов
+#надоСделать Добавить сюда описание файла настройки генерации чейнджлогов из документации
+
+https://gitlab.company.ru/api/v4/projects/группа%2Fпроект/repository/changelog?version=1.0.47
