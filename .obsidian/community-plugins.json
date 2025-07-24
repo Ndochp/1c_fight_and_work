@@ -1,4 +1,6 @@
 [
   "shiki-highlighter",
-  "find-unlinked-files"
+  "find-unlinked-files",
+  "mrj-backlinks-in-document",
+  "daily-activity"
 ]

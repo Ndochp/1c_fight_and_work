@@ -1,10 +1,11 @@
 {
   "id": "daily-activity",
   "name": "Daily Activity",
-  "version": "0.3.1",
-  "minAppVersion": "0.9.12",
+  "version": "1.0.0",
+  "minAppVersion": "0.13.23",
   "description": "A collection of commands to track your writing activity.",
   "author": "Trevor Rydalch",
   "authorUrl": "https://github.com/trydalch",
-  "isDesktopOnly": false
+  "isDesktopOnly": false,
+  "fundingUrl": "https://ko-fi.com/trydalch"
 }

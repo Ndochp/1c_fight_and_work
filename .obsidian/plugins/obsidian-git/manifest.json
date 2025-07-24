@@ -1,8 +1,10 @@
 {
+    "author": "Vinzent",
+    "authorUrl": "https://github.com/Vinzent03",
     "id": "obsidian-git",
-    "name": "Obsidian Git",
-    "description": "Backup your vault with git.",
-    "isDesktopOnly": true,
-    "js": "main.js",
-    "version": "1.6.1"
+    "name": "Git",
+    "description": "Integrate Git version control with automatic backup and other advanced features.",
+    "isDesktopOnly": false,
+    "fundingUrl": "https://ko-fi.com/vinzent",
+    "version": "2.34.0"
 }
