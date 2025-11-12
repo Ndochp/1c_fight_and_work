@@ -1,1 +1,6 @@
 [GitlabCI](GitlabCI.md)
+
+есть генератор чейнджлогов, его можно настраивать через конфиг файл
+https://gitlab.company.ru/api/v4/projects/группа%2Fпроект/repository/changelog?version=1.0.47
+
+.gitlab/changelog_config.yml
