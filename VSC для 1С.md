@@ -69,5 +69,5 @@ https://github.com/ChernyakAI/vscode-onec-theme
 # Ссылки
 [Платформа 1С](Платформа%201С.md)
 [[VSC]]
-
+[[РегулярныеВыражения]]
 
