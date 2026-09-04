@@ -27,9 +27,6 @@
   "file-recovery": true,
   "publish": false,
   "sync": false,
-  "canvas": true,
-  "bookmarks": true,
-  "properties": false,
   "webviewer": false,
   "footnotes": false,
   "bases": true

@@ -1,5 +1,7 @@
 ## Мелочи
 
+### Перенос профиля 
+[Статья](http://www.interface.ru/home.asp?artId=36311)
 ### regedit
 Не надо бегать по дереву, можно длинные строки типа
 `HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Search` вставлять сразу в адресую строку
